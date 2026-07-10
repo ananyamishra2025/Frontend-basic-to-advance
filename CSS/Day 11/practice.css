@@ -1,0 +1,56 @@
+button {
+  background: steelblue;
+  color: white;
+  padding: 10px 16px;
+}
+
+button:hover {
+  background: navy;
+}
+
+input:focus {
+  outline: 2px solid orange;
+}
+
+li:nth-child(odd) {
+  background: #f2f2f2;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 105px;
+  height: 3px;
+  background: tomato;
+}
+
+.card {
+  width: 200px;
+  height: 120px;
+  padding: 10px;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.ball {
+  animation: bounce 1s infinite;
+}
+
+button {
+  background: var(--primary);
+  padding: var(--spacing);
+}

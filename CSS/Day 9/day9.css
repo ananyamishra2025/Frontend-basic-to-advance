@@ -1,0 +1,34 @@
+/* Task 1: Root Setup */
+html {
+  font-size: 16px;
+}
+
+/* Task 3: Full Screen Section */
+.hero {
+  height: 100vh;
+  background-color: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Task 2: Typography */
+h1 {
+  font-size: 2.5rem;   /* 2.5 × 16 = 40px */
+}
+
+p {
+  font-size: 1rem;     /* 16px */
+}
+
+/* Task 4: Responsive Box */
+.box {
+  width: 60%;          /* relative to parent */
+  padding: 1.5rem;     /* 24px */
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}

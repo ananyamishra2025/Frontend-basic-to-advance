@@ -1,0 +1,66 @@
+/* ========== Task 3: Flex Responsive Menu ========== */
+/* Mobile first: column */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #333;
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #555;
+  text-align: center;
+}
+
+/* Desktop: row */
+@media (min-width: 768px) {
+  .menu {
+    flex-direction: row;
+    justify-content:space-around;
+  }
+}
+
+/* ========== Task 1: Responsive Cards (NO media queries) ========== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  height: 120px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========== Task 2: Sidebar Layout ========== */
+/* Mobile: one column */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.sidebar {
+  background-color: lightcoral;
+  padding: 20px;
+}
+
+.main {
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+/* Desktop: sidebar + main */
+@media (min-width: 768px) {
+  .layout {
+    grid-template-columns: 200px 1fr;
+  }
+}

@@ -1,0 +1,22 @@
+/*Parent Font size - em */
+.parent { 
+    font-size: 20px; 
+}
+
+.child { 
+    font-size: 1.5em; 
+} /* = 30px */
+
+/*Root Font size - rem */
+html { 
+    font-size: 16px; 
+}
+
+h1 { 
+    font-size: 2rem; 
+} /* 32px */
+
+.box {
+    width: 50vw;
+    height: 100vh;
+}

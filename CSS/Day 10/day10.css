@@ -1,0 +1,34 @@
+/* ===============================
+   Task 3: Inheritance Test
+   =============================== */
+body {
+  color: blue;          /* inherited */
+  font-family: Arial;   /* inherited */
+}
+
+/* ===============================
+   Task 1: Specificity Test
+   =============================== */
+
+/* Element selector (lowest) */
+p {
+  color: red;
+}
+
+/* Class selector (higher) */
+.text {
+  color: green;
+}
+
+/* ID selector (highest so far) */
+#para {
+  color: orange;
+}
+
+/* ===============================
+   Task 2: !important Test
+   =============================== */
+p {
+  color: purple !important;
+}
+   

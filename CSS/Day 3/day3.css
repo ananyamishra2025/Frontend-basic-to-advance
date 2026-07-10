@@ -1,0 +1,26 @@
+.box {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+.box1 {
+    background-color: lightgreen;
+}
+
+.box2 {
+    background-color: lightcoral;
+}
+
+.box3 {
+    background-color: lightblue;
+}
+
+.hide-display {
+    display: none;
+}
+
+.hide-visibility {
+    visibility: hidden;
+}

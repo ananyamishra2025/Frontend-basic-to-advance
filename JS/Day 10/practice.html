@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name">
+
+    <button id="btn">
+        Show Name
+    </button>
+
+    <h2 id="output"></h2>
+    <script>
+        let nameInput = document.getElementById("name");
+        let button = document.getElementById("btn");
+        let output = document.getElementById("output");
+
+        button.addEventListener("click", function () {
+            output.textContent = nameInput.value;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#card{
+   display: block;
+   display: inline; 
+   display: inline-block;
+   display: none;
+}
+
+div {
+  background-color: lightblue;
+  margin: 10px;
+}
+
+span {
+  background-color: yellow;
+}
+
+.box {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  background-color: coral;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}

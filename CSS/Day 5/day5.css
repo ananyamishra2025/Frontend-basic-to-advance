@@ -1,0 +1,49 @@
+/* Task 1: Center a Box */
+.center-container {
+  height: 300px;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-box {
+  width: 120px;
+  height: 120px;
+  background-color: teal;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Task 2: Horizontal Menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.menu-item {
+  padding: 10px;
+  background-color: lightcoral;
+}
+
+/* Task 3: Column Layout */
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.col-box {
+  width: 150px;
+  height: 60px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,2 +1,2 @@
-const college = "Gargi Memorial Institute of Technology";
+const college = "GMIT";
 console.log(college);

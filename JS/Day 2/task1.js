@@ -1,4 +1,4 @@
 let marks = 50;
-marks = 70;
+marks = 80;
 
 console.log("Marks: " + marks);

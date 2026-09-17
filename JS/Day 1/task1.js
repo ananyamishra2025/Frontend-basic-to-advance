@@ -1,5 +1,5 @@
 let name = "Ananya Mishra";
-let age = 20;
+let age = 23;
 
-console.log("Name: " + name);
-console.log("Age: " + age);
+console.log(name);
+console.log(age);

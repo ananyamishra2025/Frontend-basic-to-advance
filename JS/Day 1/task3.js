@@ -1,2 +1,2 @@
-let isLearningJS = true;
-console.log(typeof isLearningJS); 
+let isLearningJavaScript = true;
+console.log(typeof isLearningJavaScript); 
